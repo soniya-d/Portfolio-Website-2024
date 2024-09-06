@@ -1,0 +1,140 @@
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 10px;
+    background-color: #f2f6f4; /* Light sage */
+    color: #404040; /* Dark gray */
+}
+
+header {
+    background-color: #c1d3c1; /* Soft sage */
+    color: #004d00; /* Dark green text */
+    text-align: left;
+    font-size: 30px;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.header-text {
+    flex: 1;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px;
+    background-color: #a9c5a4; /* green background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #003300; /* Dark green */
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #8eb89e; /* Light green */
+    color: #002200; /* Darker green text  */
+}
+
+section {
+    padding: 30px;
+    color: #404040; /* Dark gray text */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    background-color: #ffffff; /* White background */
+}
+
+.project {
+    font-size: 15px;
+    line-height: 25px;
+    margin: 20px 0;
+    border: 2px solid #004d00; /* Dark green  */
+    border-radius: 10px;
+    padding: 20px;
+    transition: transform 0.3s, border-color 0.3s;
+}
+
+.project:hover {
+    transform: scale(1.05);
+    border-color: #8eb89e; /* Light green border when hover */
+}
+
+a {
+    color: #003300; /* Dark green  */
+    font-size: 18px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8eb89e; /* Light green background */
+    color: #fff; /* White text */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section Headers */
+section h2 {
+    color: #003d00; /* Darker green for headings */
+    font-size: 24px;
+    border-bottom: 2px solid #004d00; /* Dark green underline for emphasis */
+    padding-bottom: 10px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #004d00; /* Dark green for line */
+    margin-bottom: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    section {
+        padding: 20px;
+    }
+}
