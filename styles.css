@@ -11,7 +11,7 @@ body {
 }
 
 header {
-    background-color: #c1d3c1; /* Soft sage */
+    background-color: #c1d3c1; /* sage */
     color: #004d00; /* Dark green text */
     text-align: left;
     font-size: 30px;
@@ -137,4 +137,20 @@ hr {
     section {
         padding: 20px;
     }
+}
+.contact-icons {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.contact-icons a {
+    margin: 0 15px;
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: #4CAF50; 
 }
