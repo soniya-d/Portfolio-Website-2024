@@ -3,6 +3,7 @@
 <head>
     <title>My Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="scripts.js"></script>
 </head>
@@ -34,16 +35,44 @@
         <h2>SKILLS</h2>
         <hr>
         <ul>
-            <li>Java, Spring Boot, DataStax Cassandra, OAuth2, HTML, XML, Open Library API, GitHub Authentication.</li>
-            <li>Eclipse IDE, Android Studio, Visual Studio, Krita, Unity, Blender.</li>
-            <li>Object Oriented Programming/Design, App Development, Data Structures, Algorithms & Design, Software Engineering.</li>
-            <li>Communication, Problem Solving, Teamwork & Collaboration, and Critical Thinking.</li>
+            <li>Programming: Java, Python, XML, HTML, CSS</li>
+            <li>Eclipse IDE, Android Studio, Visual Studio</li>
+            <li>Object Oriented Programming/Design, App Development</li>
+            <li>Communication, Problem Solving, Teamwork & Collaboration, and Critical Thinking</li>
         </ul>
     </section>
     <section id="projects">
         <h2>PROJECTS:</h2>
         <div class="project">
-            <h3>Project 1: BookNest: A Book Tracking App using JAVA, XML & HTML <a href="https://github.com/soniya-d/BookNest-App" target="_blank">(GitHub)</a></h3>
+            <h3>Project 1: Client-Server Chat App in Python <a href="https://github.com/soniya-d/client-server-chat" target="_blank">(GitHub)</a></h3>
+            <p>
+                <li>Developed a multi-client chat application using Python, TCP sockets, and threading to support real-time messaging between clients.</li>
+                <li>Set up a server to handle multiple incoming connections, using custom request/response handling with pickling for data transfer.</li>
+                <li>Built a basic authentication system using challenge-response and IP pattern matching to verify clients before allowing access.</li>
+                <li>This project helped me understand how to manage client-server communication, deal with concurrency, and structure secure interactions.</li>
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2: Retail Banking App with MySQL and Python <a href="https://github.com/soniya-d/retail-banking-app" target="_blank">(GitHub)</a></h3>
+            <p>
+                <li>Created a full banking system using Python and MySQL Workbench, including features like viewing customers, accounts, and transactions.</li>
+                <li>Populated the database with sample data across multiple tables (Customers, Accounts, Loans, Credit Cards, etc.) using SQL scripts.</li>
+                <li>Built a Python-based menu interface to run custom queries, including reports like total loan amounts and average transaction values.</li>
+                <li>This project gave me hands-on experience with database design, writing complex queries, and connecting a Python app to a real database.</li>
+                <strong>What I did in SQL:</strong>
+                <li>Designed an ER diagram with 10 entities, including attributes, primary keys, foreign keys, weak entities, and multivalued attributes based on banking requirements.</li>
+                <li>Created all tables in MySQL Workbench, carefully choosing data types and constraints like NOT NULL, UNIQUE, DEFAULT, and CHECK to match real-world use cases.</li>
+                <li>Populated the tables with sample customer, account, and transaction data using SQL INSERT scripts.</li>
+                <li>Wrote over 10+ queries including subqueries, correlated subqueries, and window functions like RANK and ROW_NUMBER to analyze account and loan activity.</li>
+                <li>Built advanced queries using joins, grouping, aggregation, and set operations to generate financial reports like total investments per customer.</li>
+                <li>Created multiple SQL views using calculated fields, derived tables, and dynamic filters with subqueries in the SELECT, FROM, and WHERE clauses.</li>
+                <li>Explained and documented functional dependencies and normalized all tables up to BCNF to improve data integrity and reduce redundancy.</li>
+                <li>Used Python to build a menu-driven app that connected to the MySQL database and let users run the queries with well-formatted results using the Tabulate library.</li>
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project 3: BookNest: A Book Tracking App using JAVA, XML & HTML <a href="https://github.com/soniya-d/BookNest-2025" target="_blank">(GitHub)</a></h3>
             <p>
                 <li>Built a full-stack web app for tracking books, enabling users to search books via the Open Library API and interact with DataStax Cassandra for database management.</li>
                 <li>Implemented OAuth2-based GitHub login for secure user authentication, enabling personalized features such as adding books to a "My Books" page.</li>
@@ -54,7 +83,15 @@
             </p>
         </div>
         <div class="project">
-            <h3>Project 2: Speedy Words in Java <a href="https://github.com/soniya-d/Speedy-Words" target="_blank">(GitHub)</a></h3>
+            <h3>Project 4: Portfolio Website using HTML and CSS <a href="https://github.com/soniya-d/Portfolio-Website" target="_blank">(GitHub)</a></h3>
+            <p>
+                <li>Created a responsive and user-friendly layout to showcase projects and skills.</li>
+                <li>Implemented visually appealing color schemes, fonts, and layouts using CSS.</li>
+                <li>Utilized HTML to create website structure, responsiveness, and adapt to different screen sizes.</li>
+            </p>
+        </div>
+        <div class="project">
+            <h3>Project 5: Speedy Words in Java <a href="https://github.com/soniya-d/Speedy-Words" target="_blank">(GitHub)</a></h3>
             <p>
                 <li>A card game using stacks, queue, and objects.</li>
                 <li>Designed over 45+ cards to be used in a 4-player card game.</li>
@@ -62,14 +99,14 @@
             </p>
         </div>
         <div class="project">
-            <h3>Project 3: Random Tic Tac Toe in XML & Java <a href="https://github.com/soniya-d/Random-Tic-Tac-Toe" target="_blank">(GitHub)</a></h3>
+            <h3>Project 6: Random Tic Tac Toe in XML & Java <a href="https://github.com/soniya-d/Random-Tic-Tac-Toe" target="_blank">(GitHub)</a></h3>
             <p>
                 <li>A variant of Tic Tac Toe using Views, Android Basics, and Modularity.</li>
                 <li>Two-player game in which the computer determines the user's turn at random.</li>
             </p>
         </div>
         <div class="project">
-            <h3>Project 4: Rush Hour in Java <a href="https://github.com/soniya-d/Rush-Hour" target="_blank">(GitHub)</a></h3>
+            <h3>Project 7: Rush Hour in Java <a href="https://github.com/soniya-d/Rush-Hour" target="_blank">(GitHub)</a></h3>
             <p>
                 <li>A grid game project including algorithms such as Quick Sort, Merge Sort, Bubble Sort or Selection Sort.</li>
                 <li>An interactive game in which the user has complete control over the game as it progresses through multiple levels of increasing difficulty.</li>
@@ -79,14 +116,14 @@
     <section id="contact">
         <h2>Contact Me</h2>
         <hr>
-        <p>
-            Email: <a href="mailto:soniya.dasadia@gmail.com">soniya.dasadia@gmail.com</a><br>
-            LinkedIn: <a href="https://www.linkedin.com/in/soniya-dasadia-28a04b248/" target="_blank">SoniyaDasadia</a><br>
-            GitHub: <a href="https://github.com/soniya-d" target="_blank">soniya-d</a>
-        </p>
+        <div class="contact-icons">
+            <a href="mailto:soniya.dasadia@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/soniya-dasadia-28a04b248/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/soniya-d" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
     </section>
     <footer>
-        <p>&copy; 2024 Soniya Dasadia</p>
+        <p>&copy; 2025 Soniya Dasadia</p>
     </footer>
 </body>
 </html>
