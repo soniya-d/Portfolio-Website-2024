@@ -140,17 +140,19 @@ hr {
 }
 .contact-icons {
     text-align: center;
-    margin-top: 10px;
+    margin: 20px 0;
 }
 
 .contact-icons a {
-    margin: 0 15px;
-    font-size: 30px;
+    margin: 0 20px;
+    font-size: 40px;
     color: #333;
-    text-decoration: none;
-    transition: color 0.3s ease;
+    display: inline-block;
+    transition: transform 0.2s ease, color 0.3s ease;
 }
 
 .contact-icons a:hover {
-    color: #4CAF50; 
+    color: #2f855a; 
+    transform: scale(1.2);
 }
+
